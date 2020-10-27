@@ -8,6 +8,7 @@ mobx数据变化时更新react hook组件（Update the react hook component when
 ```javascript
 // store.js
 import {observable} from 'mobx'
+
 class Store{
     @observable test={t:1}
     @action
@@ -15,6 +16,7 @@ class Store{
         this.test=val
     }
 }
+
 export default new Store()
 
 // react hook component
