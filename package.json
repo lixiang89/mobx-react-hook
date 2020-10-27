@@ -1,0 +1,28 @@
+{
+  "name": "mobx-react-hook",
+  "version": "1.0.0",
+  "description": "mobx数据变化时更新react hook组件（Update the react hook component when the mobx data changes）",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lixiang89/mobx-react-hook.git"
+  },
+  "keywords": [
+    "mobx",
+    "react",
+    "hook"
+  ],
+  "author": "yishuihe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lixiang89/mobx-react-hook/issues"
+  },
+  "homepage": "https://github.com/lixiang89/mobx-react-hook#readme",
+  "dependencies": {
+    "mobx": "^4.15.7",
+    "react": "^16.14.0"
+  }
+}
