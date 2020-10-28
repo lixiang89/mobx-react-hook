@@ -1,13 +1,18 @@
 # mobx-react-hook
 mobx数据变化时更新react hook组件（Update the react hook component when the mobx data changes）
 
-### 自定义hook：useObserver(args)
+### 安装（install）
 
+`npm i mobx-react-hook`
+
+### 使用（how to use）
+
+自定义(custom) hook：`useObserver(args)`
 - `{Function|Object} args` mobx的reaction函数或者mobx的可观察对象（mobx reaction function or mobx observable object）
 
 ```javascript
 // store.js
-import {observable} from 'mobx'
+import {observable,action} from 'mobx'
 
 class Store{
     @observable test={t:1}
@@ -26,7 +31,6 @@ import store from './store.js'
 
 export default ()=>{
     const {test}=useObserver(store)
-
     // or
     const {test}=useObserver(()=>{test:store.test})
 
