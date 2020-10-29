@@ -1,6 +1,8 @@
 # mobx-react-hook
 mobx数据变化时更新react hook组件（Update the react hook component when the mobx data changes）
 
+> 版本小于1.0.2的请更新，抱歉（Please update if the version is less than 1.0.2，sorry about this）
+
 ### 安装（install）
 
 `npm i mobx-react-hook`
