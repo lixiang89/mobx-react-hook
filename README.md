@@ -34,14 +34,14 @@ import store from './store.js'
 export default ()=>{
     const {test}=useObserver(store)
     // or
-    const {test}=useObserver(()=>{test:store.test})
+    const {test}=useObserver(()=>({test:store.test}))
 
     useEffect(()=>{
-        store.setTest=0
+        store.setTest({t:2})
     },[])
 
     return (
-        <div>{test}</div>
+        <div>{test.t}</div>
     )
 }
 ```
