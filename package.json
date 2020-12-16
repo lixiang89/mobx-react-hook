@@ -1,6 +1,6 @@
 {
   "name": "mobx-react-hook",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "mobx数据变化时更新react hook组件（Update the react hook component when the mobx data changes）",
   "main": "src/index.js",
   "scripts": {
